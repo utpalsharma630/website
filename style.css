@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   background-image: url(img/banner1.png);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+.header-section{
+    width: 600px;
+    text-align: right;
+    padding-right: 150px;
+}
+.header-section h1{
+    color: white;
+    font-size: 60px;
+}
+.header-section p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+.header-section button{
+    margin: 15px auto;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.header-section button:hover{
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+}
+/* end of header section */
+
+
+.failures{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    gap: 45px;
+}
+.failures img{
+    width: 80%;
+}
+.failures-section{
+   flex-basis: 50%;
+}
+.failures-section h2{
+    font-size: 35px;
+}
+.failures-section p{
+    font-size: 17px;
+    margin: 25px auto;
+    line-height: 1.5;
+}
+.failures-section ul li{
+   list-style: none;
+   line-height: 1.5;
+   display: flex;
+}
+.failures-section ul li i{
+    color: green;
+    font-size: 25px;
+    margin-right: 10px ;
+}
+/* end of failures */
+
+.my-plans{
+    width: 80%;
+    margin: auto;
+}
+.my-plans .plans-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.plans-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 50px auto;
+    grid-gap: 20px;
+}
+.plans-item h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+/* end of my-plans */
+
+.end {
+    background-image:linear-gradient( #5081a7f6,rgba(133, 76, 76, 0.755)), url('img/Rectangle3.png');
+    width:1240px;
+    margin: auto;
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+.end h2{
+    color: whitesmoke;
+    font-size: 35px;
+}
+.end button{
+    margin: 15px auto;
+    padding: 15px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.end button:hover{
+    background-color: rgb(91, 122, 59);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.future{
+    background-color: black;
+   margin-top: 20px;
+}
+.future .future-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.future .future-content .left{
+    color: white;
+    margin: 15px auto;
+    text-align: left;
+}
+.future .future-content .left h2{
+    font-size: 35px;
+    margin: 10px auto;
+}
+.future .future-content .left p{
+    line-height: 1.5;
+    width: 70%;
+}
+.future .future-content .left ul{
+    margin: auto;
+    list-style: none;
+    line-height:1.5;
+}
+.future .future-content .right h2{
+    font-size: 35px;
+    color: white;
+    margin: 10px auto;
+}
+.future .future-content .right input{
+    margin: 15px auto;
+    padding: 10px 15px;
+    font-weight: 600;
+    
+}
+.future .future-content .right button{
+    margin: 10px auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    background-color: green;
+    
+}
+.future .future-content .right button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.icon{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    margin-left: 300px;
+    
+}
+.icon i{
+    color:white;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
